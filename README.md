@@ -145,7 +145,7 @@ curl "http://localhost:8082/color?name=blue"  # 输出: #0000FF
 
 ## TODO List
 
-- [ ] LRU-k算法
+- [ ] LRU-K算法
 - [ ] 热点检测算法改进（HeavyKeeper算法）
 - [ ] 批量获取接口支持
 - [ ] 支持 TTL
