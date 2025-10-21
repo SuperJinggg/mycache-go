@@ -18,7 +18,7 @@ import "container/list"
 // - 使用 map 实现 O(1) 的查找
 //
 // 注意：此实现不是线程安全的，需要外部同步
-// （groupcache 中的 cache 结构体提供了同步包装）
+// （mycache 中的 cache 结构体提供了同步包装）
 type Cache struct {
 	// MaxEntries 是缓存淘汰条目前的最大条目数
 	// 零值表示没有限制
