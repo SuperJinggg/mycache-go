@@ -146,10 +146,10 @@ curl "http://localhost:8082/color?name=blue"  # 输出: #0000FF
 
 ## TODO List
 
-- [ ]热点检测算法改进（HeavyKeeper算法）
-- [ ]批量获取接口支持
-- [ ]支持 TTL
-- [ ]支持主动预热
+- [ ] 热点检测算法改进（HeavyKeeper算法）
+- [ ] 批量获取接口支持
+- [ ] 支持 TTL
+- [ ] 支持主动预热
 
 ## 架构设计
 
