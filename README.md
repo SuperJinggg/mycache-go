@@ -1,5 +1,5 @@
 # MyCache - 分布式缓存库
-
+MyCache 是一个学习项目，最初是根据 [geecache](https://github.com/geektutu/7days-golang) 入门学习的。
 MyCache 是基于 [groupcache](https://github.com/golang/groupcache) 的分布式缓存库，在保留原有优秀设计的基础上，升级了 Protocol Buffers 版本并添加了详细的中文注释。
 
 ## 项目来源
