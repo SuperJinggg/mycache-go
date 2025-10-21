@@ -175,31 +175,3 @@ curl "http://localhost:8082/color?name=blue"  # 输出: #0000FF
     │ Peer 1 │  │ Peer 2 │  │ Peer 3 │
     └────────┘  └────────┘  └────────┘
 ```
-
-## 性能指标
-
-基于内部测试（硬件：8核 CPU，16GB RAM）：
-
-- 单机 QPS：~100,000
-- 分布式 QPS（3节点）：~50,000/节点
-- 平均延迟：< 1ms（本地缓存命中）
-- 平均延迟：< 10ms（远程节点获取）
-- 内存效率：约 1.2x 原始数据大小
-
-## 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-提交 PR 前请确保：
-1. 代码通过所有测试
-2. 新功能有相应的测试覆盖
-3. 注释清晰完整
-4. 遵循 Go 编码规范
-
-## License
-
-继承 groupcache 的 Apache License 2.0
-
-## 致谢
-
-感谢 Brad Fitzpatrick 和 Google groupcache 团队的优秀设计！
